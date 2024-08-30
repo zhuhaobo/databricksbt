@@ -1,0 +1,1 @@
+select * from {{source('source_table','jaffle_shop_customers')}}

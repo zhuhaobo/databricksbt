@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: source_table
+    database: steve_learn_databricks
+    schema: default
+    tables:
+      - name: jaffle_shop_customers
+        description: "jaffle_shop_customers"
+      - name: jaffle_shop_orders
+        description: "jaffle_shop_orders"
