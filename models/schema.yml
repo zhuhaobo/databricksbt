@@ -1,8 +1,8 @@
 version: 2
 
 models:
-  - name: customer
-    description: One record per customer
+  - name: dim_customer
+    description: customer dimension
     columns:
       - name: customer_id
         description: Primary key
