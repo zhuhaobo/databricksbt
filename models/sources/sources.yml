@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: source_table
     database: steve_learn_databricks
-    schema: default
+    schema: staging
     tables:
       - name: jaffle_shop_customers
         description: "jaffle_shop_customers"
